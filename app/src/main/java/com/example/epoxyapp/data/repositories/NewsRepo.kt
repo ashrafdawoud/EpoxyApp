@@ -10,7 +10,10 @@ import retrofit2.Response
  * 23/04/2022
  */
 class NewsRepo(private val apiService: Api) {
+
   suspend fun getBreakNews(): NewsRsm {
-    return apiService.getBreakingNews()
+
+      return apiService.getBreakingNews()
+
   }
 }
